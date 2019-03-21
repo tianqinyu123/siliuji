@@ -1,0 +1,143 @@
+@font-face{
+  font-family: "HYTiaoTiaoTiJ";
+  src: url("font/jumpp.ttf")
+}
+
+html{
+  font-size: 16px;
+}
+
+.first{
+    width: 100vw;
+    height: 10.32vh;
+}
+
+.导航栏_png {
+    background: url("images/first.png") no-repeat;
+    background-size: 100vw 10.32vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 10.32vh;
+    z-index: 22;
+  }
+
+  .second{
+      position: relative;
+      width: 114vw;
+      height: 31.2vh;
+      overflow: hidden;
+  }
+
+  .上半部分_png {
+    background: url("images/econd.png") no-repeat;
+    background-size: 114vw 35.76vh;
+    position: absolute;
+    top: -2.8vh;
+    width: 114vw;
+    height: 35.76vh;
+    z-index: 2;
+  }
+
+  .third{
+      position: absolute;
+      width: 100vw;
+      height: 72.48vh;
+      background-color:#c2daff;
+  }
+
+  .content_total{
+      position: relative;
+      width: 93.33vw;
+      height: 52.64vh;
+      margin: 4vh auto;
+      background-color: #fbfdff;
+      border: 2px solid #073b79;
+      border-radius: 10px;
+  }
+
+  .content_box{
+      position: relative;
+      width: 77.33vw;
+      height: 47.04vh;
+      margin: 1.6vh auto;
+      z-index: 2;
+  }
+  
+  .content{
+      position: relative;
+      width: 100%;
+      height: 6.4vh;
+      border-bottom: 2px solid #cad6e4;
+  }
+
+  .data_box{
+      float: left;
+      width: 20.3vw;
+      height: 100%;
+  }
+
+  .data_box2{
+    float: left;
+    width: 8vw;
+    height: 100%;
+  }
+
+  .data {
+    font-size: 1.26rem;
+    font-family: "HYTiaoTiaoTiJ";
+    color: rgb(7, 59, 121);
+    line-height: 6.4vh;
+  }
+  
+  .scores_box{
+      height: 100%;
+      width: 30.7vw;
+      align-content: center;
+      float: left;
+  }
+
+  .interval{
+    height: 100%;
+      width: 4vw;
+      float: left;
+  }
+
+  .scores {
+    font-size: 1.2rem;
+    color: rgb(248, 130, 43);
+    line-height: 6.4vh;
+  }
+
+  .word_box{
+      width: 100%;
+      height: 2vh;
+      color: #6b92d1;
+      line-height: 21px;
+      text-align: center;
+      font: 1rem bold;
+      margin-top: 9.2vh;
+  }
+
+  .pen {
+    background: url("images/ourth.png") no-repeat;
+    background-size: 38.13vw 11.52vh;
+    position: absolute;
+    left: 56vw;
+    top: 38vh;
+    width: 38.13vw;
+    height: 11.52vh;
+    z-index: 282;
+  }
+
+  .ink {
+    background: url("images/third.png") no-repeat;
+    background-size: 6.933vw 5.68vh;
+    position: absolute;
+    left: 1.6vw;
+    top: 44.4vh;
+    width: 6.933vw;
+    height: 5.68vh;
+    z-index: 267;
+  }

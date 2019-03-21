@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script>       
+            var docEl = document.documentElement,
+
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+
+            recalc = function() {
+                let maxWidth = 750
+                let cw = docEl.clientWidth>maxWidth ? maxWidth : docEl.clientWidth
+                docEl.style.fontSize = 10 * (cw / 320) + 'px';
+            };
+
+            window.addEventListener(resizeEvt, recalc, false);
+            document.addEventListener('DOMContentLoaded', recalc, false);
+        </script>
+        <link rel="stylesheet" type="text/css" href="siliuji.css" >
+    <body style="margin:0;padding:0;width:100vw;height:100vh">
+        <div style="width:100vw;height:100vh">
+            <div class="first">
+                <div class="导航栏_png"></div>
+            </div>
+            <div class="second">
+                <div class="上半部分_png"></div>
+            </div>
+            <div class="third">
+                <div class="content_total">
+                    <div class="content_box">
+                        <div class="content">
+                            <div class="data_box">
+                                <div class="data">
+                                    姓&#12288&#12288名:
+                                </div>
+                            </div>
+                            <div class="scores_box">
+                                <div class="scores">
+                                    杨均有
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="data_box">
+                                <div class="data">
+                                    准考证号：
+                                </div>
+                            </div>
+                            <div class="scores_box">
+                                <div class="scores">
+                                    123846794161
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="data_box">
+                                <div class="data">
+                                    总&#12288&#12288分:
+                                </div>
+                            </div>
+                            <div class="scores_box">
+                                <div class="scores">
+                                    457
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="data_box">
+                                <div class="data">
+                                    <span>单&#12288&#12288科：</span>
+                                </div>
+                            </div>
+                            <div class="data_box2">
+                                <div class="data">
+                                    <span>听力</span>
+                                </div>
+                            </div>
+                            <div class="interval"></div>
+                            <div class="scores_box">
+                                <div class="scores">
+                                    134
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="data_box">
+                                <div class="data"></div>
+                            </div>
+                            <div class="data_box2">
+                                <div class="data">
+                                    <span>阅读</span>
+                                </div>
+                            </div>
+                            <div class="interval"></div>
+                            <div class="scores_box">
+                                <div class="scores">
+                                    134
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="data_box">
+                                <div class="data"></div>
+                            </div>
+                            <div class="data_box">
+                                <div class="data">
+                                    写作和翻译
+                                </div>
+                            </div>
+                            <div class="interval"></div>
+                            <div class="scores_box">
+                                <div class="scores">
+                                    134
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ink"></div>
+                    <div class="pen"></div>
+                </div>
+                <div class="word_box">
+                    <span>©</span>
+                    <span>红岩网校工作站</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
